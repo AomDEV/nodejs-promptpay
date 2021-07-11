@@ -11,7 +11,7 @@ with Mobile Number
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // Bill Payment (Tag: 30)
+PromptPay.SetTagType(29); // PromptPay (Tag: 29)
 PromptPay.SetMobileNumber("0900000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
@@ -20,7 +20,7 @@ with National ID or Tax ID
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // Bill Payment (Tag: 30)
+PromptPay.SetTagType(29); // PromptPay (Tag: 29)
 PromptPay.SetNationID("0000000000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
@@ -29,7 +29,7 @@ with E-Wallet ID
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // Bill Payment (Tag: 30)
+PromptPay.SetTagType(29); // PromptPay (Tag: 29)
 PromptPay.SetEWalletID("0000000000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
