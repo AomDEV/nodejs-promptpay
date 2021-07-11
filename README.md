@@ -1,5 +1,7 @@
 # nodejs-promptpay
+[![Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/aomdev)<br/>
 NodeJS - Promptpay API
+
 ## Usage
 CRC Library (<a href="https://www.npmjs.com/package/crc16-xmodem">Source</a>)<br/>
 ```
