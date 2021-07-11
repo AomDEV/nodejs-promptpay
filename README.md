@@ -11,7 +11,7 @@ with Mobile Number
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // PromptPay (Tag: 29)
+PromptPay.SetPromptPayType(); // PromptPay (Tag: 29)
 PromptPay.SetMobileNumber("0900000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
@@ -20,7 +20,7 @@ with National ID or Tax ID
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // PromptPay (Tag: 29)
+PromptPay.SetPromptPayType(); // PromptPay (Tag: 29)
 PromptPay.SetNationID("0000000000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
@@ -29,7 +29,7 @@ with E-Wallet ID
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(29); // PromptPay (Tag: 29)
+PromptPay.SetPromptPayType(); // PromptPay (Tag: 29)
 PromptPay.SetEWalletID("0000000000000");
 PromptPay.SetAmount(10.00); // Amount (Optional)
 var Payload = PromptPay.Generate();
@@ -39,7 +39,7 @@ var Payload = PromptPay.Generate();
 ```javascript
 const PromptPayObj = require('PromptPay');
 var PromptPay = new PromptPayObj();
-PromptPay.SetTagType(30); // Bill Payment (Tag: 30)
+PromptPay.SetBillPaymentType(); // Bill Payment (Tag: 30)
 PromptPay.SetBillerID("BillerID");
 PromptPay.SetReference1("Ref1");
 PromptPay.SetReference2("Ref2");
@@ -76,12 +76,21 @@ generateQRCode(PromptPay.Generate());
 
 
 ### Methods
+Set custom tag type
+```javascript
+// 30 = Bill Payment
+// 29 = PromptPay
+// See more : https://www.bot.or.th/Thai/PaymentSystems/StandardPS/Documents/ThaiQRCode_Payment_Standard.pdf
+PromptPay.SetCustomTagType(TagType)
+```
 For QR that can be used multiple times 
 ```javascript
+// reusable
 PromptPay.SetStaticQR()
 ```
 For a one-time QR code
 ```javascript
+// one-time
 PromptPay.SetDynamicQR()
 ```
 In the case of the shop will show the QR for customers to scan. can be defined by calling
