@@ -10,7 +10,7 @@ class PromptPay{
 
     Version = {Tag:"00",Value:"01"};
 
-    TagType = 30;
+    TagType = 29;
     IsCustomerPresented = true;
     IsDomesticMerchant = true;
     InitialMethod = "11";
@@ -66,7 +66,13 @@ class PromptPay{
     SetDynamicQR(){
         this.InitialMethod = "12";
     }
-    SetTagType(Type){
+    SetCustomTagType(Type){
+        this.TagType = Type;
+    }
+    SetPromptPayType(){
+        this.TagType = 29;
+    }
+    SetBillPaymentType(){
         this.TagType = 30;
     }
     SetBillerID(BillerID){
