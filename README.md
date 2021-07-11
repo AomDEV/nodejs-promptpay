@@ -72,7 +72,7 @@ Usage
 generateQRCode(PromptPay.Generate());
 ```
 
-<i>Reference: <a href="https://arjunphp.com/create-qr-code-node-js/">arjunphp.com</a></i>
+<i>Reference: <a href="https://arjunphp.com/create-qr-code-node-js/" target="_blank">arjunphp.com</a></i>
 
 
 ### Methods
@@ -95,7 +95,7 @@ PromptPay.SetCustomerPresented()
 
 
 ## Reference
-<li>Netway: <a href="https://netway.co.th/kb/blog/news-%26-updates/qr-payment-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B3%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A-sme">netway.co.th</a></li>
-<li>Bank of Thailand: <a href="https://www.bot.or.th/Thai/PaymentSystems/StandardPS/Documents/ThaiQRCode_Payment_Standard.pdf">bot.or.th</a></li>
-<li>Github: <a href="https://github.com/dtinth/promptpay-qr">promptpay-qr (dtinth)</a></li>
-<li>Github: <a href="https://github.com/saladpuk/PromptPay">PromptPay (saladpuk)</a></li>
+<li>Netway: <a href="https://netway.co.th/kb/blog/news-%26-updates/qr-payment-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B3%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A-sme" target="_blank">netway.co.th</a></li>
+<li>Bank of Thailand: <a href="https://www.bot.or.th/Thai/PaymentSystems/StandardPS/Documents/ThaiQRCode_Payment_Standard.pdf" target="_blank">bot.or.th</a></li>
+<li>Github: <a href="https://github.com/dtinth/promptpay-qr" target="_blank">promptpay-qr (dtinth)</a></li>
+<li>Github: <a href="https://github.com/saladpuk/PromptPay" target="_blank">PromptPay (saladpuk)</a></li>
